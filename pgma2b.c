@@ -7,14 +7,14 @@
 #include "pgmWrite.c"
 
 int main(int argc , char **argv){
-  if(argc == 1){//check the correct number of command line args ar supplied
-  //output error message if note
+  if(argc == 1){//check the correct number of command line args are supplied
+  //output error message if not
     printf("Usage: ./pgma2b inputImage.pgm outputImage.pgm");
     //exit with error code
     return EXIT_ZERO_ARG;
   } 
   else if(argc < 3 || argc > 3){//check the correct number of command line args ar supplied
-  //output error message if note
+  //output error message if not
     printf("ERROR: Bad Argument Count");
     //exit with error code
     return EXIT_WRONG_ARG_COUNT;
