@@ -1,0 +1,19 @@
+Test Plan:
+I am planning on testing my program recursively After 
+implementing a feature, small or big test before I continue.
+I aim to test the program's sub-sections individually first
+Then zooming out and test bigger sub-sections.
+Finally, once all the tests pass without any errors, 
+I should aim to test the whole program as a collective
+of modules and debug any errors. The prinf() function 
+will be used a lot as I would like to see the value of
+the variables and compare their value with the expected one.
+
+The inputs given via the command line could
+contain some data that is not compatible with the
+program therefore I am aming to test the program
+with unfimiler inputs and bullet proofing it so
+no crashes are caused in that case.
+
+
+

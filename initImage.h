@@ -1,0 +1,1 @@
+void initImage(Image *image);

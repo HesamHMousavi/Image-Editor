@@ -1,0 +1,26 @@
+Main module:
+check the correct number of command line arguments
+Outputs an error comment if the correct number of arguments is not supplied
+structures all other modules and calls them accordingly.
+
+
+ReadFile Module:
+This module is used to read in files.
+In addition to that this module should also run all required checks
+to spot any errors, For example failing to read a certain file.
+In addtion this should also read in the magic number.
+
+WeiteFile Module:
+This module is used to write to files and similarly
+checks for any errors in regards of the file written to.
+and be able to spot errors and outputs the write comment in case of and error.
+It should also contain variables to data being written.
+
+image Module:
+This module should contains variables to store the pgm image dimanetions:
+such as the max gray colour, width , heigh, etc.
+
+CommentLine Module:
+This module is used to allocate sapce for commant lines;
+Stores all its variables and frees memory when the task is done;
+
